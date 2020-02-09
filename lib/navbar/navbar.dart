@@ -47,6 +47,17 @@ class DesktopNavbar extends StatelessWidget {
                 SizedBox(
                   width: 30,
                 ),
+                MaterialButton(
+                  color: Colors.pink,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(20.0)),
+                  ),
+                  onPressed: () {},
+                  child: Text(
+                    "Get Started",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                )
               ],
             )
           ],
