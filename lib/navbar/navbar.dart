@@ -26,12 +26,23 @@ class DesktopNavbar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Text(
-              'Kinsvilla Retro Protal Studio',
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                  fontSize: 30),
+            Row(
+              children: <Widget>[
+                Text(
+                  'Kinsvilla',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 34),
+                ),
+                Text(
+                  '- Money saving platform',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 30),
+                ),
+              ],
             ),
             Row(
               children: <Widget>[
@@ -43,7 +54,7 @@ class DesktopNavbar extends StatelessWidget {
                 SizedBox(
                   width: 30,
                 ),
-                Text("Portfolio", style: TextStyle(color: Colors.white)),
+                Text("Login", style: TextStyle(color: Colors.white)),
                 SizedBox(
                   width: 30,
                 ),
@@ -54,7 +65,7 @@ class DesktopNavbar extends StatelessWidget {
                   ),
                   onPressed: () {},
                   child: Text(
-                    "Get Started",
+                    "Start Saving",
                     style: TextStyle(color: Colors.white),
                   ),
                 )
@@ -77,7 +88,7 @@ class MobileNavbar extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
       child: Column(children: <Widget>[
         Text(
-          'Kinsvilla Retro Protal Studio',
+          'Retro Protal Studio',
           style: TextStyle(
               fontWeight: FontWeight.bold, color: Colors.white, fontSize: 30),
         ),
