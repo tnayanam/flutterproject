@@ -61,12 +61,21 @@ flutter:
       fonts:
         - asset: assets/fonts/Montserrat-Bold.ttf
         - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-MediumItalic.ttf
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+        - asset: assets/fonts/Montserrat-Italic.ttf
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+        - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
+        - asset: assets/fonts/Montserrat-Thin.ttf
+        - asset: assets/fonts/Montserrat-ThinItalic.ttf
           style: italic
     - family: HK
       fonts:
         - asset: assets/fonts/hk-grotesk.bold.ttf
         - asset: assets/fonts/hk-grotesk.regular.ttf
         - asset: assets/fonts/hk-grotesk.semibold.ttf
+        - asset: assets/fonts/hk-grotesk.medium.ttf
           style: italic
   #   - family: Trajan Pro
   #     fonts:

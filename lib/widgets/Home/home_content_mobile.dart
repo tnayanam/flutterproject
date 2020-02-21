@@ -83,7 +83,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-class LandingPage extends StatelessWidget {
+class HomeContentMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (context, constraint) {
