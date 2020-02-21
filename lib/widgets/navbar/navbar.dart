@@ -10,7 +10,7 @@ class Navbar extends StatelessWidget {
         } else if (constraint.maxWidth < 1200 && constraint.maxWidth > 800) {
           return DesktopNavbar();
         } else
-          return MobileNavbar();
+          return DesktopNavbar();
       },
     );
   }
@@ -31,35 +31,28 @@ class DesktopNavbar extends StatelessWidget {
                 Text(
                   'Kinsvilla',
                   style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      /*fontWeight: FontWeight.bold,*/
+                      color: Color(0xff233143),
                       fontSize: 34),
-                ),
-                Text(
-                  '- Money saving platform',
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                      fontSize: 30),
                 ),
               ],
             ),
             Row(
               children: <Widget>[
-                Text("Home", style: TextStyle(color: Colors.white)),
+                Text("Home", style: TextStyle(color: Color(0xff233143))),
                 SizedBox(
                   width: 30,
                 ),
-                Text("AboutUs", style: TextStyle(color: Colors.white)),
+                Text("AboutUs", style: TextStyle(color: Color(0xff233143))),
                 SizedBox(
                   width: 30,
                 ),
-                Text("Login", style: TextStyle(color: Colors.white)),
+                Text("Login", style: TextStyle(color: Color(0xff233143))),
                 SizedBox(
                   width: 30,
                 ),
                 MaterialButton(
-                  color: Colors.pink,
+                  color: Color(0xffe44747),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(20.0)),
                   ),
@@ -78,38 +71,39 @@ class DesktopNavbar extends StatelessWidget {
   }
 }
 
-class MobileNavbar extends StatelessWidget {
-  const MobileNavbar({Key key}) : super(key: key);
+// class MobileNavbar extends StatelessWidget {
+//   const MobileNavbar({Key key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-        child: Padding(
-      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-      child: Column(children: <Widget>[
-        Text(
-          'Retro Protal Studio',
-          style: TextStyle(
-              fontWeight: FontWeight.bold, color: Colors.white, fontSize: 30),
-        ),
-        Padding(
-          padding: const EdgeInsets.all(12.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text("Home", style: TextStyle(color: Colors.white)),
-              SizedBox(
-                width: 30,
-              ),
-              Text("AboutUs", style: TextStyle(color: Colors.white)),
-              SizedBox(
-                width: 30,
-              ),
-              Text("Portfolio", style: TextStyle(color: Colors.white)),
-            ],
-          ),
-        ),
-      ]),
-    ));
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//         child: Padding(
+//       padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+//       child: Column(children: <Widget>[
+//         Text(
+//           'Retro Protal Studio',
+//           style: TextStyle(
+//               /*fontWeight: FontWeight.bold,*/ color: Colors.white,
+//               fontSize: 30),
+//         ),
+//         Padding(
+//           padding: const EdgeInsets.all(12.0),
+//           child: Row(
+//             mainAxisAlignment: MainAxisAlignment.center,
+//             children: <Widget>[
+//               Text("Home", style: TextStyle(color: Colors.white)),
+//               SizedBox(
+//                 width: 30,
+//               ),
+//               Text("AboutUs", style: TextStyle(color: Colors.white)),
+//               SizedBox(
+//                 width: 30,
+//               ),
+//               Text("Portfolio", style: TextStyle(color: Colors.white)),
+//             ],
+//           ),
+//         ),
+//       ]),
+//     ));
+//   }
+// }

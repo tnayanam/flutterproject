@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rj/LandingPage/landingpage.dart';
-import 'package:rj/navbar/navbar.dart';
+import 'package:rj/views/layout_template.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,40 +11,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: "Montserrat",
+        fontFamily: "HK",
       ),
-      home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-            gradient: LinearGradient(
-          begin: Alignment.centerLeft,
-          end: Alignment.centerRight,
-          colors: [
-            Color.fromRGBO(195, 20, 50, 1.0),
-            Color.fromRGBO(36, 11, 54, 1.0)
-          ],
-        )),
-        child: Column(
-          children: <Widget>[
-            Navbar(),
-            Padding(
-              padding:
-                  const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
-              child: LandingPage(),
-            )
-          ],
-        ),
-      ),
+      home: LayoutTemplate(),
     );
   }
 }
