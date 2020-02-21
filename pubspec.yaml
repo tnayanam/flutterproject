@@ -28,6 +28,7 @@ dependencies:
   provider_architecture:
   provider: ^3.1.0
   http: ^0.12.0+2
+  font_awesome_flutter: ^8.7.0
 
 dev_dependencies:
   flutter_test:
@@ -62,13 +63,9 @@ flutter:
         - asset: assets/fonts/Montserrat-Bold.ttf
         - asset: assets/fonts/Montserrat-Regular.ttf
         - asset: assets/fonts/Montserrat-MediumItalic.ttf
-        - asset: assets/fonts/Montserrat-ExtraLight.ttf
         - asset: assets/fonts/Montserrat-Italic.ttf
-        - asset: assets/fonts/Montserrat-ExtraLight.ttf
         - asset: assets/fonts/Montserrat-SemiBold.ttf
         - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
-        - asset: assets/fonts/Montserrat-Thin.ttf
-        - asset: assets/fonts/Montserrat-ThinItalic.ttf
           style: italic
     - family: HK
       fonts:

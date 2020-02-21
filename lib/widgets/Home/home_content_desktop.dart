@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomeContentDesktop extends StatelessWidget {
   @override
@@ -15,7 +16,7 @@ class HomeContentDesktop extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   SizedBox(
-                    height: 100,
+                    height: 120,
                   ),
                   Center(
                     child: new Text(
@@ -59,30 +60,276 @@ class HomeContentDesktop extends StatelessWidget {
           ],
         ),
         new SizedBox(
-          height: 30,
+          height: 60,
         ),
         new Text(
-          "Benefits of Kinsvilla’s online networking platform?",
+          "What are the benefits of Kinsvilla’s platform?",
           style: TextStyle(fontSize: 30),
+        ),
+        new SizedBox(
+          height: 80,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            new Text("One"),
-            new Text("Two"),
-            new Text("Three"),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.database,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "Choose members from community",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Just post your mobile plan \n and find interested party",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            new SizedBox(
+              width: 280,
+            ),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.briefcase,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "Choose members from community",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Just post your mobile plan \n and find interested party",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            new SizedBox(
+              width: 280,
+            ),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.addressCard,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "Choose members from community",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Just post your mobile plan \n and find interested party",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+        new SizedBox(
+          height: 40,
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.anchor,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "Choose members from community",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Just post your mobile plan \n and find interested party",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            new SizedBox(
+              width: 280,
+            ),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.calendarDay,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "Choose members from community",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Just post your mobile plan \n and find interested party",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            new SizedBox(
+              width: 280,
+            ),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.bookmark,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "Choose members from community",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Just post your mobile plan \n and find interested party",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
         new SizedBox(
           height: 30,
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            new Text("One"),
-            new Text("Two"),
-            new Text("Three"),
-          ],
         ),
       ],
     );
