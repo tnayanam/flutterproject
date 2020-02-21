@@ -76,6 +76,7 @@ class HomeContentDesktop extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 new Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     Icon(
                       FontAwesomeIcons.database,
@@ -86,7 +87,7 @@ class HomeContentDesktop extends StatelessWidget {
                       width: 10,
                     ),
                     new Text(
-                      "Choose members from community",
+                      "Real Savings",
                       style: TextStyle(
                         fontSize: 20,
                         fontFamily: "HK",
@@ -96,12 +97,144 @@ class HomeContentDesktop extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 10.0,
+                  height: 5.0,
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
                   child: new Text(
-                    "Just post your mobile plan \n and find interested party",
+                    "Users start saving on mobile as well as \n video streaming services.",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            new SizedBox(
+              width: 280,
+            ),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.camera,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "The Real Deal, Real Savings",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 5.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "We have unbiased service that simply finds and \n provides you with the absolute best deal on phones \nand service out there. Cool, huh?",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            new SizedBox(
+              width: 280,
+            ),
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.radiation,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "Find trusted members",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 5.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Our search algorithm provides you members \nfrom the community you trust the most",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontFamily: "HK",
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+        new SizedBox(
+          height: 40,
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            new Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                new Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.database,
+                      color: const Color(0xFF0099a9),
+                      size: 30,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    new Text(
+                      "24 * 7 Savings",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: "HK",
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 5.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
+                  child: new Text(
+                    "Users start saving on mobile as well as \n video streaming services.",
                     style: TextStyle(
                       fontSize: 18,
                       fontFamily: "HK",
@@ -128,7 +261,7 @@ class HomeContentDesktop extends StatelessWidget {
                       width: 10,
                     ),
                     new Text(
-                      "Choose members from community",
+                      "No Spam, No Calls, No worries",
                       style: TextStyle(
                         fontSize: 20,
                         fontFamily: "HK",
@@ -138,12 +271,12 @@ class HomeContentDesktop extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 10.0,
+                  height: 5.0,
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
                   child: new Text(
-                    "Just post your mobile plan \n and find interested party",
+                    "When you sign up be rest assured your information \n is safe. We’ll never sell your info to spammers.",
                     style: TextStyle(
                       fontSize: 18,
                       fontFamily: "HK",
@@ -170,7 +303,7 @@ class HomeContentDesktop extends StatelessWidget {
                       width: 10,
                     ),
                     new Text(
-                      "Choose members from community",
+                      "Add trusted members",
                       style: TextStyle(
                         fontSize: 20,
                         fontFamily: "HK",
@@ -180,143 +313,12 @@ class HomeContentDesktop extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 10.0,
+                  height: 5.0,
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
                   child: new Text(
-                    "Just post your mobile plan \n and find interested party",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-        new SizedBox(
-          height: 40,
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                new Row(
-                  children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.anchor,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    new Text(
-                      "Choose members from community",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "Just post your mobile plan \n and find interested party",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            new SizedBox(
-              width: 280,
-            ),
-            new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                new Row(
-                  children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.calendarDay,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    new Text(
-                      "Choose members from community",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "Just post your mobile plan \n and find interested party",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            new SizedBox(
-              width: 280,
-            ),
-            new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                new Row(
-                  children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.bookmark,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    new Text(
-                      "Choose members from community",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "Just post your mobile plan \n and find interested party",
+                    "We match the members based on trusted \n community",
                     style: TextStyle(
                       fontSize: 18,
                       fontFamily: "HK",
