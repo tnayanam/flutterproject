@@ -78,6 +78,7 @@ class HomeContentMobile extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     new Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Icon(
                           FontAwesomeIcons.database,
@@ -138,6 +139,7 @@ class HomeContentMobile extends StatelessWidget {
             new Column(
               children: <Widget>[
                 new Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     new Column(
                       children: <Widget>[
@@ -147,7 +149,7 @@ class HomeContentMobile extends StatelessWidget {
                           size: 30,
                         ),
                         SizedBox(
-                          height: 30,
+                          height: 90,
                         ),
                         Icon(
                           FontAwesomeIcons.database,
@@ -200,6 +202,7 @@ class HomeContentMobile extends StatelessWidget {
             new Column(
               children: <Widget>[
                 new Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     new Column(
                       children: <Widget>[
@@ -209,7 +212,7 @@ class HomeContentMobile extends StatelessWidget {
                           size: 30,
                         ),
                         SizedBox(
-                          height: 30,
+                          height: 90,
                         ),
                         Icon(
                           FontAwesomeIcons.database,
