@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:rj/widgets/Home/home_content_desktop.dart';
-import 'package:rj/widgets/Home/home_content_mobile.dart';
+import 'package:rj/widgets/home/home_content_desktop.dart';
+import 'package:rj/widgets/home/home_content_mobile.dart';
+import 'package:rj/widgets/home/reviewcard/review_widget.dart';
+import 'package:rj/widgets/home/test.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key key}) : super(key: key);
@@ -10,7 +12,8 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenTypeLayout(
       mobile: HomeContentMobile(),
-      desktop: HomeContentMobile(),
+      desktop: HomeContentDesktop(),
+      tablet: Text("sdf"),
     );
   }
 }

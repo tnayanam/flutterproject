@@ -263,8 +263,26 @@ class HomeContentMobile extends StatelessWidget {
               ],
             ),
           ],
-        )
+        ),
+        // new Row(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+        //   children: <Widget>[
+        //     Icon(
+        //       FontAwesomeIcons.database,
+        //       color: const Color(0xFF0099a9),
+        //       size: 30,
+        //     ),
+        //     new Text("Hello World"),
+        //     Icon(
+        //       FontAwesomeIcons.database,
+        //       color: const Color(0xFF0099a9),
+        //       size: 30,
+        //     ),
+        //   ],
+        // )
       ],
     );
   }
 }
+
+//rgb(241, 248, 254)

@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:rj/widgets/home/reviewcard/review_widget.dart';
 
 class HomeContentDesktop extends StatelessWidget {
   @override
@@ -69,271 +70,211 @@ class HomeContentDesktop extends StatelessWidget {
         new SizedBox(
           height: 80,
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        new Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 new Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.database,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
+                    new Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      width: 10,
+                      width: 20,
                     ),
-                    new Text(
-                      "Real Savings",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
+                    new Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        new Text(
+                          "Real Savings",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: "HK",
+                          ),
+                        ),
+                        SizedBox(
+                          height: 12,
+                        ),
+                        new Text(
+                          "Users start saving on mobile as well as \n video streaming services.",
+                        ),
+                        SizedBox(
+                          height: 45,
+                        ),
+                        new Text(
+                          "The Real Deal, Real Savings",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: "HK",
+                          ),
+                        ),
+                        SizedBox(
+                          height: 12,
+                        ),
+                        new Text(
+                          "We have unbiased service that simply finds and \n provides you with the absolute best deal on phones.",
+                        ),
+                      ],
+                    )
                   ],
-                ),
-                SizedBox(
-                  height: 5.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "Users start saving on mobile as well as \n video streaming services.",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
+                )
               ],
             ),
-            new SizedBox(
-              width: 280,
-            ),
             new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 new Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.camera,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
+                    new Column(
+                      children: <Widget>[
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      width: 10,
+                      width: 20,
                     ),
-                    new Text(
-                      "The Real Deal, Real Savings",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
+                    new Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        new Text(
+                          "Find trusted members",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: "HK",
+                          ),
+                        ),
+                        SizedBox(
+                          height: 12,
+                        ),
+                        new Text(
+                          "Our search algorithm provides you members \nfrom the community you trust the most",
+                        ),
+                        SizedBox(
+                          height: 45,
+                        ),
+                        new Text(
+                          "24 * 7 Savings",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: "HK",
+                          ),
+                        ),
+                        SizedBox(
+                          height: 12,
+                        ),
+                        new Text(
+                          "Users start saving on mobile as well as \n video streaming services.",
+                        ),
+                      ],
+                    )
                   ],
-                ),
-                SizedBox(
-                  height: 5.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "We have unbiased service that simply finds and \n provides you with the absolute best deal on phones \nand service out there. Cool, huh?",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
+                )
               ],
             ),
-            new SizedBox(
-              width: 280,
-            ),
             new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 new Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.radiation,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
+                    new Column(
+                      children: <Widget>[
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      width: 10,
+                      width: 20,
                     ),
-                    new Text(
-                      "Find trusted members",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
+                    new Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        new Text(
+                          "No Spam, No Calls, No worries",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: "HK",
+                          ),
+                        ),
+                        SizedBox(
+                          height: 12,
+                        ),
+                        new Text(
+                          "When you sign up be rest assured your information \n is safe. We’ll never sell your info to spammers.",
+                        ),
+                        SizedBox(
+                          height: 45,
+                        ),
+                        new Text(
+                          "Add trusted members",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: "HK",
+                          ),
+                        ),
+                        SizedBox(
+                          height: 12,
+                        ),
+                        new Text(
+                          "We match the members based on trusted \n community",
+                        ),
+                      ],
+                    )
                   ],
-                ),
-                SizedBox(
-                  height: 5.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "Our search algorithm provides you members \nfrom the community you trust the most",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
+                )
               ],
             ),
           ],
         ),
         new SizedBox(
-          height: 40,
+          height: 60,
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                new Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.database,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    new Text(
-                      "24 * 7 Savings",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "Users start saving on mobile as well as \n video streaming services.",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            new SizedBox(
-              width: 280,
-            ),
-            new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                new Row(
-                  children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.briefcase,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    new Text(
-                      "No Spam, No Calls, No worries",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "When you sign up be rest assured your information \n is safe. We’ll never sell your info to spammers.",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            new SizedBox(
-              width: 280,
-            ),
-            new Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                new Row(
-                  children: <Widget>[
-                    Icon(
-                      FontAwesomeIcons.addressCard,
-                      color: const Color(0xFF0099a9),
-                      size: 30,
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    new Text(
-                      "Add trusted members",
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontFamily: "HK",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(40.0, 0, 0, 0),
-                  child: new Text(
-                    "We match the members based on trusted \n community",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontFamily: "HK",
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-        new SizedBox(
-          height: 30,
-        ),
+        new ReviewWidget()
+        // new Row(
+        //   children: <Widget>[new ReviewWidget()],
+        // )
       ],
     );
   }
 }
+
+//rgb(241, 248, 254)

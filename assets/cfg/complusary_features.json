@@ -1,0 +1,22 @@
+{
+    "music": [
+        "cost per month",
+        "max people"
+    ],
+    "movies": [
+        "cost per month",
+        "max people"
+    ],
+    "news": [
+        "cost per month",
+        "max people"
+    ],
+    "mobile": [
+        "cost per month",
+        "max people",
+        "international charge",
+        "internet limit",
+        "call limit",
+        "text limit"
+    ]  
+}

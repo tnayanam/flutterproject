@@ -48,6 +48,10 @@ flutter:
   assets:
     - assets/images/lp_image.png
     - assets/images/background.jpg
+    - assets/images/quotes_inv.png
+    - assets/images/quotes.png
+    - assets/images/user_review/
+    - assets/cfg/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see
