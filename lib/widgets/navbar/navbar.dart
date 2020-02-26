@@ -37,33 +37,33 @@ class DesktopNavbar extends StatelessWidget {
                 ),
               ],
             ),
-            Row(
-              children: <Widget>[
-                Text("Home", style: TextStyle(color: Color(0xff233143))),
-                SizedBox(
-                  width: 30,
-                ),
-                Text("AboutUs", style: TextStyle(color: Color(0xff233143))),
-                SizedBox(
-                  width: 30,
-                ),
-                Text("Login", style: TextStyle(color: Color(0xff233143))),
-                SizedBox(
-                  width: 30,
-                ),
-                MaterialButton(
-                  color: Color(0xffe44747),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                  ),
-                  onPressed: () {},
-                  child: Text(
-                    "Start Saving",
-                    style: TextStyle(color: Colors.white),
-                  ),
-                )
-              ],
-            )
+            // Row(
+            //   children: <Widget>[
+            //     Text("Home", style: TextStyle(color: Color(0xff233143))),
+            //     SizedBox(
+            //       width: 30,
+            //     ),
+            //     Text("AboutUs", style: TextStyle(color: Color(0xff233143))),
+            //     SizedBox(
+            //       width: 30,
+            //     ),
+            //     Text("Login", style: TextStyle(color: Color(0xff233143))),
+            //     SizedBox(
+            //       width: 30,
+            //     ),
+            //     MaterialButton(
+            //       color: Color(0xffe44747),
+            //       shape: RoundedRectangleBorder(
+            //         borderRadius: BorderRadius.all(Radius.circular(20.0)),
+            //       ),
+            //       onPressed: () {},
+            //       child: Text(
+            //         "Start Saving",
+            //         style: TextStyle(color: Colors.white),
+            //       ),
+            //     )
+            //   ],
+            // )
           ],
         ),
       ),

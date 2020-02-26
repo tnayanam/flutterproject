@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:rj/widgets/home/reviewcard/review_widget.dart';
 
 class HomeContentMobile extends StatelessWidget {
   @override
@@ -16,13 +17,13 @@ class HomeContentMobile extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   SizedBox(
-                    height: 120,
+                    height: 20,
                   ),
                   Center(
                     child: new Text(
                       "Kinsvilla platform",
                       style: TextStyle(
-                        fontSize: 45,
+                        fontSize: 30,
                         color: Color(0xff233143),
                       ),
                     ),
@@ -30,7 +31,7 @@ class HomeContentMobile extends StatelessWidget {
                   new Text(
                     "Save Money - Quick & Easy",
                     style: TextStyle(
-                      fontSize: 45,
+                      fontSize: 20,
                       color: Color(0xff233143),
                     ),
                   ),
@@ -44,13 +45,13 @@ class HomeContentMobile extends StatelessWidget {
                     ),
                     onPressed: () {},
                     child: Padding(
-                      padding: const EdgeInsets.all(20.0),
+                      padding: const EdgeInsets.all(10.0),
                       child: Text(
                         "START SAVING NOW",
                         style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                          color: Colors.white,
+                          fontSize: 10,
+                        ),
                       ),
                     ),
                   ),
@@ -63,8 +64,8 @@ class HomeContentMobile extends StatelessWidget {
           height: 60,
         ),
         new Text(
-          "What are the benefits of Kinsvilla’s platform?",
-          style: TextStyle(fontSize: 30),
+          "Benefits of Kinsvilla’s platform?",
+          style: TextStyle(fontSize: 25),
         ),
         new SizedBox(
           height: 80,
@@ -80,6 +81,38 @@ class HomeContentMobile extends StatelessWidget {
                     new Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Icon(
+                          FontAwesomeIcons.database,
+                          color: const Color(0xFF0099a9),
+                          size: 30,
+                        ),
+                        SizedBox(
+                          height: 90,
+                        ),
                         Icon(
                           FontAwesomeIcons.database,
                           color: const Color(0xFF0099a9),
@@ -130,58 +163,11 @@ class HomeContentMobile extends StatelessWidget {
                         new Text(
                           "We have unbiased service that simply finds and \n provides you with the absolute best deal on phones.",
                         ),
-                      ],
-                    )
-                  ],
-                )
-              ],
-            ),
-            new Column(
-              children: <Widget>[
-                new Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    new Column(
-                      children: <Widget>[
-                        Icon(
-                          FontAwesomeIcons.database,
-                          color: const Color(0xFF0099a9),
-                          size: 30,
-                        ),
-                        SizedBox(
-                          height: 90,
-                        ),
-                        Icon(
-                          FontAwesomeIcons.database,
-                          color: const Color(0xFF0099a9),
-                          size: 30,
-                        ),
-                      ],
-                    ),
-                    SizedBox(
-                      width: 20,
-                    ),
-                    new Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        new Text(
-                          "Find trusted members",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontFamily: "HK",
-                          ),
-                        ),
-                        SizedBox(
-                          height: 12,
-                        ),
-                        new Text(
-                          "Our search algorithm provides you members \nfrom the community you trust the most",
-                        ),
                         SizedBox(
                           height: 45,
                         ),
                         new Text(
-                          "24 * 7 Savings",
+                          "Real Savings",
                           style: TextStyle(
                             fontSize: 20,
                             fontFamily: "HK",
@@ -193,40 +179,9 @@ class HomeContentMobile extends StatelessWidget {
                         new Text(
                           "Users start saving on mobile as well as \n video streaming services.",
                         ),
-                      ],
-                    )
-                  ],
-                )
-              ],
-            ),
-            new Column(
-              children: <Widget>[
-                new Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    new Column(
-                      children: <Widget>[
-                        Icon(
-                          FontAwesomeIcons.database,
-                          color: const Color(0xFF0099a9),
-                          size: 30,
-                        ),
                         SizedBox(
-                          height: 90,
+                          height: 45,
                         ),
-                        Icon(
-                          FontAwesomeIcons.database,
-                          color: const Color(0xFF0099a9),
-                          size: 30,
-                        ),
-                      ],
-                    ),
-                    SizedBox(
-                      width: 20,
-                    ),
-                    new Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
                         new Text(
                           "No Spam, No Calls, No worries",
                           style: TextStyle(
@@ -254,7 +209,26 @@ class HomeContentMobile extends StatelessWidget {
                           height: 12,
                         ),
                         new Text(
-                          "We match the members based on trusted \n community",
+                          "We match the members based on trusted \n community.",
+                        ),
+                        SizedBox(
+                          height: 45,
+                        ),
+                        new Text(
+                          "Real Savings",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: "HK",
+                          ),
+                        ),
+                        SizedBox(
+                          height: 12,
+                        ),
+                        new Text(
+                          "Users start saving on mobile as well as \n video streaming services.",
+                        ),
+                        SizedBox(
+                          height: 45,
                         ),
                       ],
                     )
@@ -264,25 +238,11 @@ class HomeContentMobile extends StatelessWidget {
             ),
           ],
         ),
-        // new Row(
-        //   mainAxisAlignment: MainAxisAlignment.center,
-        //   children: <Widget>[
-        //     Icon(
-        //       FontAwesomeIcons.database,
-        //       color: const Color(0xFF0099a9),
-        //       size: 30,
-        //     ),
-        //     new Text("Hello World"),
-        //     Icon(
-        //       FontAwesomeIcons.database,
-        //       color: const Color(0xFF0099a9),
-        //       size: 30,
-        //     ),
-        //   ],
-        // )
+        new SizedBox(
+          height: 60,
+        ),
+        new ReviewWidget()
       ],
     );
   }
 }
-
-//rgb(241, 248, 254)
