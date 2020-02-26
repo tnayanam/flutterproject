@@ -1,109 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_builder/responsive_builder.dart';
+import 'package:rj/widgets/navbar/navbar_desktop.dart';
+import 'package:rj/widgets/navbar/navbar_mobile.dart';
 
 class Navbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(
-      builder: (context, constraint) {
-        if (constraint.maxWidth > 1200) {
-          return DesktopNavbar();
-        } else if (constraint.maxWidth < 1200 && constraint.maxWidth > 800) {
-          return DesktopNavbar();
-        } else
-          return DesktopNavbar();
-      },
+    return ScreenTypeLayout(
+      mobile: NavbarMobile(),
+      desktop: NavbarDesktop(),
+      tablet: NavbarDesktop(),
     );
   }
 }
-
-class DesktopNavbar extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-      child: Container(
-        //constraints: BoxConstraints(maxWidth: 1200),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            Row(
-              children: <Widget>[
-                Text(
-                  'Kinsvilla',
-                  style: TextStyle(
-                      /*fontWeight: FontWeight.bold,*/
-                      color: Color(0xff233143),
-                      fontSize: 34),
-                ),
-              ],
-            ),
-            // Row(
-            //   children: <Widget>[
-            //     Text("Home", style: TextStyle(color: Color(0xff233143))),
-            //     SizedBox(
-            //       width: 30,
-            //     ),
-            //     Text("AboutUs", style: TextStyle(color: Color(0xff233143))),
-            //     SizedBox(
-            //       width: 30,
-            //     ),
-            //     Text("Login", style: TextStyle(color: Color(0xff233143))),
-            //     SizedBox(
-            //       width: 30,
-            //     ),
-            //     MaterialButton(
-            //       color: Color(0xffe44747),
-            //       shape: RoundedRectangleBorder(
-            //         borderRadius: BorderRadius.all(Radius.circular(20.0)),
-            //       ),
-            //       onPressed: () {},
-            //       child: Text(
-            //         "Start Saving",
-            //         style: TextStyle(color: Colors.white),
-            //       ),
-            //     )
-            //   ],
-            // )
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-// class MobileNavbar extends StatelessWidget {
-//   const MobileNavbar({Key key}) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//         child: Padding(
-//       padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-//       child: Column(children: <Widget>[
-//         Text(
-//           'Retro Protal Studio',
-//           style: TextStyle(
-//               /*fontWeight: FontWeight.bold,*/ color: Colors.white,
-//               fontSize: 30),
-//         ),
-//         Padding(
-//           padding: const EdgeInsets.all(12.0),
-//           child: Row(
-//             mainAxisAlignment: MainAxisAlignment.center,
-//             children: <Widget>[
-//               Text("Home", style: TextStyle(color: Colors.white)),
-//               SizedBox(
-//                 width: 30,
-//               ),
-//               Text("AboutUs", style: TextStyle(color: Colors.white)),
-//               SizedBox(
-//                 width: 30,
-//               ),
-//               Text("Portfolio", style: TextStyle(color: Colors.white)),
-//             ],
-//           ),
-//         ),
-//       ]),
-//     ));
-//   }
-// }

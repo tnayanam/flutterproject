@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:rj/constants/images.dart';
+import 'package:rj/widgets/home/reviewcard/temp.dart';
 
 class ReviewWidget extends StatefulWidget {
   ReviewWidget();
@@ -23,12 +24,7 @@ class _ReviewWidgetState extends State<ReviewWidget> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Center(
-          child: Text(
-            "What people say about Kinsvilla!",
-            style: TextStyle(fontSize: 30),
-          ),
-        ),
+        Center(child: Temp()),
         SizedBox(height: 80),
         Padding(
           padding: const EdgeInsets.fromLTRB(75.0, 0.0, 75.0, 0.0),
